@@ -1,0 +1,18 @@
+{% include header.html %}
+<body>
+  <div class=container>
+    <div class="row">
+      <div class="col-12">
+	<h1>Merideth Hillbrand</h1>
+      </div>
+      {% for post in site.posts limit:1 %}
+      <div class="row">
+	<div class="col-12">
+	  {{ post.content }}
+	</div>	
+      </div>
+      {% endfor %}
+  </div>
+</div>
+<br>
+{% include footer.html %}
