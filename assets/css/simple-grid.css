@@ -5,6 +5,10 @@
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic);
 
+@import url(https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+
 /* UNIVERSAL */
 
 html,
@@ -21,10 +25,12 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-    font-family: 'Merriweather', serif;
-    color: #333447;
+    font-family: 'Roboto', sans-serif;
+    /*color: #333447;*/
     line-height: 1.5;
+
 }
+
 
 /* TYPOGRAPHY */
 
@@ -58,6 +64,21 @@ p {
   line-height: 1.8;
 }
 
+
+em {
+  font-family: 'Philosopher', sans-serif;
+  color: #333447;
+}
+
+a {
+  font-family: 'Philosopher', sans-serif;
+  color: #333447;
+}
+
+strong {
+  color: #009900;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -89,6 +110,7 @@ p {
 .justify {
   text-align: justify;
 }
+
 
 /* ==== GRID SYSTEM ==== */
 
