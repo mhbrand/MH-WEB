@@ -75,6 +75,10 @@ a {
   color: #333447;
 }
 
+a:hover {
+  color: #009900;
+}
+
 strong {
   color: #009900;
 }
@@ -92,6 +96,18 @@ strong {
 }
 
 /* POSITIONING */
+
+.nav {
+
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0;
+}
 
 .left {
   text-align: left;
@@ -113,6 +129,7 @@ strong {
 
 
 /* ==== GRID SYSTEM ==== */
+
 
 .container {
   width: 90%;

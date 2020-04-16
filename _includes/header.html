@@ -23,15 +23,27 @@
     <div class=container>
       <div class="row">
 	<div class="col-12">
-	  <h2><a href="/">Merideth Hillbrand</a></h2>
+<style>
+h2 {
+  margin: 0;
+}
+</style>
+    <h2><a href="/">Merideth Hillbrand</a></h2>
 	</div>
 	<div class="col-12">
+<style>
+h3 {
+  margin-top: 2;
+  margin-bottom: 0;
+}
+</style>
+    <ul class="nav">
 	  <h3>
 	    {% for post in site.posts %}
-	    <a href="{{ post.url }}">
-	      {{ post.title }}</a>
-
+        <li><a href="{{ post.url }}">
+	      {{ post.title }}</a>&nbsp;&nbsp;</li>
 	    {% endfor %}
+      </ul>
 	  </h3>
 	</div>
 
