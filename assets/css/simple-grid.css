@@ -109,6 +109,11 @@ strong {
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
 .left {
   text-align: left;
 }
